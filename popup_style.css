@@ -1,0 +1,6 @@
+.popup-body {
+    min-width: 250px;
+    max-width: 350px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
