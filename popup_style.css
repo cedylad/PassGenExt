@@ -1,6 +1,65 @@
-.popup-body {
-    min-width: 250px;
-    max-width: 350px;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+.code-editor {
+    width: 250px;
+    background-color: #1d1e22;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 1.57px;
+    color: #d4d4d4;
+    margin-right: 5px;
+}
+
+.editor-content {
+    margin-top: 10px;
+    /* Ajoutez un espace au-dessus du contenu de l'éditeur */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #d4d4d4;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#generatedPassword {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
 }
